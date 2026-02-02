@@ -1,5 +1,5 @@
 const originalCountdownDuration = 10* 24* 60* 60* 1000;
-let countDownDate= new Date("March 10, 2024").getTime();
+let countDownDate= new Date("March 10, 2026").getTime();
 
 
     var x = setInterval(function() {
@@ -31,5 +31,6 @@ function updateCountdown(timeleft) {
  document.getElementById("mins").innerText = mins < 10 ? "0" + mins : mins;
  document.getElementById("secs").innerText = secs < 10 ? "0" + secs : secs;
 }
+
 
 startCountdown();
